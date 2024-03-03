@@ -1,16 +1,18 @@
-import mdLogo from "/logos/aibtc-neural-network-md-1000px.png";
-import "./App.css";
+import { ChakraProvider, Flex } from "@chakra-ui/react";
+import theme from "./theme";
+import CustomFonts from "./fonts";
+import { Header, Content, Footer } from "./layout";
 
 function App() {
   return (
-    <>
-      <div>
-        <a href="https://aibtc.dev" target="_blank" rel="noreferrer">
-          <img src={mdLogo} className="logo" alt="AIBTC logo" />
-        </a>
-      </div>
-      <h1>Bitcoin x AI</h1>
-    </>
+    <ChakraProvider theme={theme}>
+      <CustomFonts />
+      <Flex direction="column" minH="100vh" minW="250px">
+        {/* <Header /> */}
+        <Content />
+        <Footer />
+      </Flex>
+    </ChakraProvider>
   );
 }
 
