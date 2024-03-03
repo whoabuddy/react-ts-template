@@ -36,6 +36,7 @@ export function Content() {
       <Stack direction={["column", null, "row"]}>
         <Button
           size="lg"
+          _hover={{ bg: "orange.400", color: "white" }}
           as="a"
           href="https://evt.to/emamdeggw"
           target="_blank"
@@ -45,6 +46,7 @@ export function Content() {
         </Button>
         <Button
           size="lg"
+          _hover={{ bg: "orange.400", color: "white" }}
           as="a"
           href="https://github.com/orgs/stacks-network/discussions/534"
           target="_blank"
@@ -54,6 +56,7 @@ export function Content() {
         </Button>
         <Button
           size="lg"
+          _hover={{ bg: "orange.400", color: "white" }}
           as="a"
           href="https://github.com/orgs/stacks-network/discussions/533"
           target="_blank"
@@ -63,12 +66,13 @@ export function Content() {
         </Button>
         <Button
           size="lg"
+          _hover={{ bg: "orange.400", color: "white" }}
           as="a"
-          href="https://github.com/orgs/stacks-network/discussions/categories/bitcoin-x-ai"
+          href="https://github.com/aibtcdev"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn More
+          Developer GitHub
         </Button>
       </Stack>
     </Stack>
@@ -77,31 +81,17 @@ export function Content() {
 
 export function Footer() {
   return (
-    <Stack
-      align="center"
-      justify="space-between"
-      direction={["column-reverse", "row"]}
-      p={4}
-    >
+    <Stack align="center" justify="space-between" direction="row" p={4}>
       <Text>&copy; 2024</Text>
       <ButtonGroup>
         <IconButton
           isRound
+          _hover={{ bg: "orange.400", color: "white" }}
           aria-label="Working Group Info"
           title="Working Group Info"
           icon={<FaInfo />}
           as="a"
-          href="https://github.com/orgs/stacks-network/discussions/531"
-          target="_blank"
-          rel="noopener noreferrer"
-        />
-        <IconButton
-          isRound
-          aria-label="Development on GitHub"
-          title="Development on GitHub"
-          icon={<FaGithub />}
-          as="a"
-          href="https://github.com/aibtcdev"
+          href="https://github.com/orgs/stacks-network/discussions/categories/bitcoin-x-ai"
           target="_blank"
           rel="noopener noreferrer"
         />
