@@ -1,7 +1,7 @@
 import { ChakraProvider, Flex } from "@chakra-ui/react";
 import theme from "./theme";
 import CustomFonts from "./fonts";
-import { Header, Content, Footer } from "./layout";
+import { Content, Footer } from "./layout";
 
 function App() {
   return (
