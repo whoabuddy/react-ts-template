@@ -7,8 +7,8 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import { FaGithub, FaInfo } from "react-icons/fa";
-import smLogo from "/logos/aibtc-neural-network-sm-250px.png";
+import { FaInfo } from "react-icons/fa";
+import smLogo from "/logos/aibtcdev-logo-sm-250px.png";
 
 export function Header() {
   return (
