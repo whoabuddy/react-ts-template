@@ -7,7 +7,7 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import { FaInfo } from "react-icons/fa";
+import { FaDiscord, FaInfo } from "react-icons/fa";
 import smLogo from "/logos/aibtcdev-logo-sm-250px.png";
 
 export function Header() {
@@ -30,8 +30,8 @@ export function Content() {
       <Heading size="2xl" color="orange.400">
         Bitcoin x AI
       </Heading>
-      <Text fontSize={["large", null, "x-large"]} p={4}>
-        Silicon intelligence integrating sound money.
+      <Text fontSize="x-large" textAlign="center" p={4}>
+        Welcome to the working group!
       </Text>
       <Stack direction={["column", null, "row"]}>
         <Button
@@ -80,8 +80,21 @@ export function Footer() {
           aria-label="Working Group Info"
           title="Working Group Info"
           icon={<FaInfo />}
+          size={["xs", null, "md"]}
           as="a"
           href="https://github.com/orgs/stacks-network/discussions/531"
+          target="_blank"
+          rel="noopener noreferrer"
+        />
+        <IconButton
+          isRound
+          _hover={{ bg: "orange.400", color: "white" }}
+          aria-label="Discord"
+          title="Discord"
+          icon={<FaDiscord />}
+          size={["xs", null, "md"]}
+          as="a"
+          href="https://discord.gg/5DJaBrf"
           target="_blank"
           rel="noopener noreferrer"
         />
