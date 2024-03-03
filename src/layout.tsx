@@ -58,16 +58,6 @@ export function Content() {
           size="lg"
           _hover={{ bg: "orange.400", color: "white" }}
           as="a"
-          href="https://github.com/orgs/stacks-network/discussions/533"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sprint Syncs
-        </Button>
-        <Button
-          size="lg"
-          _hover={{ bg: "orange.400", color: "white" }}
-          as="a"
           href="https://github.com/aibtcdev"
           target="_blank"
           rel="noopener noreferrer"
@@ -91,7 +81,7 @@ export function Footer() {
           title="Working Group Info"
           icon={<FaInfo />}
           as="a"
-          href="https://github.com/orgs/stacks-network/discussions/categories/bitcoin-x-ai"
+          href="https://github.com/orgs/stacks-network/discussions/531"
           target="_blank"
           rel="noopener noreferrer"
         />
