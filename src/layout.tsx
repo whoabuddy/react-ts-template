@@ -31,7 +31,7 @@ export function Content() {
         Bitcoin x AI
       </Heading>
       <Text fontSize={["large", null, "x-large"]} p={4}>
-        Silicon intelligence meets Internet money.
+        Silicon intelligence integrating sound money.
       </Text>
       <Stack direction={["column", null, "row"]}>
         <Button
