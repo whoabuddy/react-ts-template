@@ -26,7 +26,7 @@ export function Header() {
 export function Content() {
   return (
     <Stack alignItems="center" justifyContent="center" flexGrow={1}>
-      <Image src={smLogo} alt="aiBTC Neural Network" w={250} />
+      <Image src={smLogo} alt="aiBTC Neural Network" w={[200, 250]} />
       <Heading size="2xl" color="orange.400">
         Bitcoin x AI
       </Heading>
@@ -80,7 +80,7 @@ export function Footer() {
           aria-label="Working Group Info"
           title="Working Group Info"
           icon={<FaInfo />}
-          size={["xs", null, "md"]}
+          size={["sm", null, "md"]}
           as="a"
           href="https://github.com/orgs/stacks-network/discussions/531"
           target="_blank"
@@ -92,7 +92,7 @@ export function Footer() {
           aria-label="Discord"
           title="Discord"
           icon={<FaDiscord />}
-          size={["xs", null, "md"]}
+          size={["sm", null, "md"]}
           as="a"
           href="https://discord.gg/5DJaBrf"
           target="_blank"
