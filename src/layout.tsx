@@ -25,8 +25,12 @@ export function Header() {
 
 export function Content() {
   return (
-    <Stack alignItems="center" justifyContent="center" flexGrow={1}>
-      <Image src={smLogo} alt="aiBTC Neural Network" w={[200, 250]} />
+    <Stack
+      alignItems="center"
+      justifyContent={["flex-start", null, "center"]}
+      flexGrow={1}
+    >
+      <Image src={smLogo} alt="aiBTC Neural Network" w={[200, 250]} py={4} />
       <Heading size="2xl" color="orange.400">
         Bitcoin x AI
       </Heading>
