@@ -1,6 +1,8 @@
-# Bitcoin x AI Landing Page
+<p align="center"><img src="./public/logos/aibtcdev-logo-sm-250px.png" alt="Bitcoin x AI Logo" width="150px" ></p>
 
-![Bitcoin x AI Logo](./public/logos/aibtcdev-logo-sm-250px.png)
+# Bitcoin x AI: Landing Page
+
+## Description
 
 This is a simple landing page that provides a brief overview of the Bitcoin x AI working group.
 
