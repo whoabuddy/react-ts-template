@@ -8,7 +8,6 @@ function App() {
     <ChakraProvider theme={theme}>
       <CustomFonts />
       <Flex direction="column" minH="100vh" minW="250px">
-        {/* <Header /> */}
         <Content />
         <Footer />
       </Flex>

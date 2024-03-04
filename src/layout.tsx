@@ -10,19 +10,6 @@ import {
 import { FaDiscord, FaInfo } from "react-icons/fa";
 import smLogo from "/logos/aibtcdev-logo-sm-250px.png";
 
-export function Header() {
-  return (
-    <Stack
-      align="center"
-      justify="flex-end"
-      direction={["column", "row"]}
-      p={4}
-    >
-      <Text>Unused for now</Text>
-    </Stack>
-  );
-}
-
 export function Content() {
   return (
     <Stack
