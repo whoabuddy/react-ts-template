@@ -7,7 +7,7 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import { FaDiscord, FaInfo } from "react-icons/fa";
+import { FaDiscord, FaGithub, FaInfo } from "react-icons/fa";
 import smLogo from "/logos/aibtcdev-logo-sm-250px.png";
 
 export function Content() {
@@ -49,11 +49,11 @@ export function Content() {
           size="lg"
           _hover={{ bg: "orange.400", color: "white" }}
           as="a"
-          href="https://github.com/aibtcdev"
+          href="https://docs.aibtc.dev"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Developer GitHub
+          Documentation
         </Button>
       </Stack>
     </Stack>
@@ -74,6 +74,18 @@ export function Footer() {
           size={["sm", null, "md"]}
           as="a"
           href="https://github.com/orgs/stacks-network/discussions/531"
+          target="_blank"
+          rel="noopener noreferrer"
+        />
+        <IconButton
+          isRound
+          _hover={{ bg: "orange.400", color: "white" }}
+          aria-label="GitHub Resources"
+          title="GitHub Resources"
+          icon={<FaGithub />}
+          size={["sm", null, "md"]}
+          as="a"
+          href="https://github.com/aibtcdev"
           target="_blank"
           rel="noopener noreferrer"
         />
