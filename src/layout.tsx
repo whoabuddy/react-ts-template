@@ -8,7 +8,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { FaDiscord, FaGithub, FaInfo } from "react-icons/fa";
-import smLogo from "/logos/aibtcdev-logo-sm-250px.png";
+import smLogo from "/logos/orange-eye-logo-1024px.png";
 
 export function Content() {
   return (
@@ -18,44 +18,12 @@ export function Content() {
       flexGrow={1}
     >
       <Image src={smLogo} alt="aiBTC Neural Network" w={[200, 250]} py={4} />
-      <Heading size="2xl" color="orange.400">
-        Bitcoin x AI
+      <Heading size="4xl" color="orange.400">
+        INSERT_TITLE
       </Heading>
-      <Text fontSize="x-large" textAlign="center" p={4}>
-        Welcome to the working group!
+      <Text fontSize="2xl" textAlign="center" p={4}>
+        Something new is brewing.
       </Text>
-      <Stack direction={["column", null, "row"]}>
-        <Button
-          size="lg"
-          _hover={{ bg: "orange.400", color: "white" }}
-          as="a"
-          href="https://evt.to/emamdeggw"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          RSVP Thursdays
-        </Button>
-        <Button
-          size="lg"
-          _hover={{ bg: "orange.400", color: "white" }}
-          as="a"
-          href="https://github.com/orgs/stacks-network/discussions/534"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Meeting Minutes
-        </Button>
-        <Button
-          size="lg"
-          _hover={{ bg: "orange.400", color: "white" }}
-          as="a"
-          href="https://docs.aibtc.dev"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Documentation
-        </Button>
-      </Stack>
     </Stack>
   );
 }
@@ -63,7 +31,7 @@ export function Content() {
 export function Footer() {
   return (
     <Stack align="center" justify="space-between" direction="row" p={4}>
-      <Text>&copy; 2024</Text>
+      <Text fontSize="2xl">&copy; 2024</Text>
       <ButtonGroup>
         <IconButton
           isRound

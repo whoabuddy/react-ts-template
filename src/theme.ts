@@ -12,7 +12,6 @@ import { mode } from "@chakra-ui/theme-tools";
 const config: ThemeConfig = {
   initialColorMode: "dark",
   useSystemColorMode: false,
-  cssVarPrefix: "aiBTC",
 };
 
 const colors = {
@@ -32,8 +31,8 @@ const colors = {
 };
 
 const fonts = {
-  heading: "DM Sans 9pt, Open Sans, sans-serif",
-  body: "DM Sans 9pt, Open Sans, sans-serif",
+  heading: "Santa Catarina Regular, Open Sans, sans-serif",
+  body: "Santa Catarina Regular, Open Sans, sans-serif",
 };
 
 const globalStyles = {
