@@ -1,7 +1,7 @@
 <!--
 Code below will create a centered README image that can point at any available public logo or favicon.
-<p align="center"><img src="./public/logos/path-to-logo.png" alt="Logo" width="150px" ></p>
 -->
+<p align="center"><img src="./public/logos/orange-eye-only-logo-500px.png" alt="Logo" width="150px" ></p>
 
 # INSERT_TITLE
 
@@ -22,7 +22,7 @@ Tech stack:
 To run this locally:
 
 1. Clone this repository
-2. Run `npx npm-check-updates -u` (optional)
+2. Run `npx npm-check-updates -u --target=minor` (optional)
 3. Run `npm install`
 4. Run `npm run dev`
 5. Open [http://localhost:5173](http://localhost:5173) with your browser
@@ -70,7 +70,7 @@ If there are any issues with the icon, check the following:
 
 ### Custom Metadata
 
-Hey Meta generator
+[Hey Meta generator](https://heymeta.com)
 
 ### Custom Fonts
 
